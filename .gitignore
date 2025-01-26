@@ -1,0 +1,26 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Environment variables
+.env.dist
+.env.dist.*
+
+# Virtual environments
+venv/
+.env/
+*.venv
+*.virtualenv
+
+# PyInstaller
+# Usually contains compiled code or bundled dependencies
+*.spec
+
+# PyCharm-specific
+.idea/
+*.iml
+
+# IDE / Editor
+.vscode/
