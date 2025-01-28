@@ -7,7 +7,7 @@
 ██║  ██║██║╚██████╔╝██║     ██████╔╝   ██║   
 ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝     ╚═════╝    ╚═╝   
 -----------------------------------------------
-Telegram bot template + PayPal integration using aiogram, web app and paypalrestsdk    
+Telegram bot template with aiogram, aiohttp, Paypalrestsdk, SQLAlchemy, and PostgreSQL.
 </pre>
 </div>
 
