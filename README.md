@@ -11,7 +11,7 @@ Telegram bot template + PayPal integration using aiogram, web app and paypalrest
 </pre>
 </div>
 
-[AIOPBT](https://github.com/joludyaster/aiogram-paypal-bot-template) -  is a Python-based Telegram bot template built with the [aiogram](https://docs.aiogram.dev/en/dev-3.x/) library, featuring a web app webhook powered by [aiohttp](https://docs.aiohttp.org/en/stable/) and integrated with [Paypalrestsdk](https://github.com/avidas/rest-api-sdk-python) for payment processing. The bot leverages a [PostgreSQL](https://www.postgresql.org/) database, utilizing [SQLAlchemy](https://www.sqlalchemy.org/) as its engine for efficient query handling.
+[AIOPBT](https://github.com/joludyaster/aiogram-paypal-bot-template) - is a Python-based Telegram bot template built with the [aiogram](https://docs.aiogram.dev/en/dev-3.x/) library, featuring a web app webhook powered by [aiohttp](https://docs.aiohttp.org/en/stable/) and integrated with [Paypalrestsdk](https://github.com/avidas/rest-api-sdk-python) for payment processing. The bot leverages a [PostgreSQL](https://www.postgresql.org/) database, utilizing [SQLAlchemy](https://www.sqlalchemy.org/) as its engine for efficient query handling.
 
 ### Technologies used
 1. [Aiogram](https://docs.aiogram.dev/en/dev-3.x/)
@@ -73,7 +73,7 @@ Telegram bot template + PayPal integration using aiogram, web app and paypalrest
 
 ## How to run?
 
-Application requires [Python](https://www.python.org/downloads/) 3.10+ < installed on your local machine to support all features.
+Application requires [Python](https://www.python.org/downloads/) 3.10+ installed on your local machine to support all features.
 
 > Create virtual environment to install all needed dependencies:
 
