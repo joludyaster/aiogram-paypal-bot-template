@@ -20,6 +20,57 @@ Telegram bot template + PayPal integration using aiogram, web app and paypalrest
 4. [PostgreSQL](https://www.postgresql.org/)
 5. [SQLAlchemy](https://www.sqlalchemy.org/)
 
+### Bot structure
+
+```
+...
+├── bot
+    ├── data
+        ├── __init__.py
+        ├── config.py
+    ├── handlers
+        ├── users
+            ├── __init__.py
+            ├── start.py
+        ├── __init__.py
+    ├── keyboard
+        ├── default_keyboard
+            ├── __init__.py
+            ├── default_keyboard.py
+        ├── inline_keyboard
+            ├── __init__.py
+            ├── inline_keyboard.py
+        ├── __init__.py
+    ├── middlewares
+        ├── __init__.py
+        ├── middlewares.py
+    ├── paypal
+        ├── __init__.py
+        ├── paypal.py
+    ├── services
+        ├── __init__.py
+        ├── broadcast.py
+        ├── send_message.py
+    ├── __init__.py
+    ├── __main__.py
+
+├── database
+    ├── commands
+        ├── __init__.py
+        ├── base.py
+        ├── receipts.py
+        ├── requests.py
+        ├── users.py
+    ├── models
+        ├── __init__.py
+        ├── base.py
+        ├── receipts.py
+        ├── users.py
+    ├── __init__.py
+    ├── setup.py
+├── .env.dist
+```
+
 ## How to run?
 
 Application requires [Python](https://www.python.org/downloads/) 3.10+ < installed on your local machine to support all features.
